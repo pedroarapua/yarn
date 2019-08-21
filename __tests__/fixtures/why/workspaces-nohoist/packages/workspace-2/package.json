@@ -4,6 +4,6 @@
   "private": false,
   "dependencies": {
     "mime-types": "2.1.12",
-    "uglifyify": "3.0.4"
+    "uglifyify": "5.0.2"
   }
 }
