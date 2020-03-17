@@ -2,7 +2,7 @@
   "dependencies": {
     "cross-spawn": "3.0.1",
     "cross-spawn-async": "2.2.4",
-    "jest-cli": "15.1.1",
+    "jest-cli": "24.9.0",
     "node-notifier": "4.6.1"
   }
 }
