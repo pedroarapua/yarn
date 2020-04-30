@@ -1,6 +1,12 @@
 {
   "dependencies": {
     "babel-cli": "6.18.0",
-    "gulp-imagemin": "3.1.1"
-  }
+    "gulp-imagemin": "3.1.1",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
