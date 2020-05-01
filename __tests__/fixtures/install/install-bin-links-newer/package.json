@@ -2,6 +2,12 @@
   "version": "0.0.1",
   "dependencies": {
     "eslint": "3.12.2",
-    "sample-dep-eslint-3.10.1": "file:sample-dep-eslint-3.10.1"
-  }
+    "sample-dep-eslint-3.10.1": "file:sample-dep-eslint-3.10.1",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
