@@ -2,6 +2,6 @@
   "private": "true",
   "dependencies": {
     "themer": "2.0.0",
-    "themer-hyper": "^1.0.3"
+    "themer-hyper": "^2.0.4"
   }
 }
